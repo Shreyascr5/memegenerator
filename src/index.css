@@ -64,15 +64,16 @@ main {
 }
 
 .meme--image {
-    max-width: 100%;
+    width: 100%;
     border-radius: 3px;
+    /* height: 50%; */
 }
 
 .meme--text {
     position: absolute;
     width: 80%;
     text-align: center;
-    left: 12.5%;
+    left: 50%;
     transform: translateX(-50%);
     margin: 15px 0;
     padding: 0 5px;
